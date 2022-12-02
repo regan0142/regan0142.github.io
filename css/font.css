@@ -1,16 +1,16 @@
 @font-face{
-    font-family: 'NiShiWoWeiYiShouXuan';
+    font-family: '你是唯一首选';
     font-display: swap;
     src: url('../font/NiShiWoWeiYiShouXuan-2.ttf') format("truetype");
 }
 @font-face{
-    font-family: 'YeZiGongChangShanHaiMingChao';
+    font-family: 'YEFONShanHaiMingChao';
     font-display: swap;
     src: url('../font/YeZiGongChangShanHaiMingChao-2.ttf') format("truetype");
 }
 
 body {
-    font-family: "Microsoft YaHei", 'NiShiWoWeiYiShouXuan','YeZiGongChangShanHaiMingChao';
+    font-family: '你是唯一首选','YEFONShanHaiMingChao';
 }
 
 
