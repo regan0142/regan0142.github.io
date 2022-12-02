@@ -1,5 +1,5 @@
 @font-face{
-    font-family: '你是唯一首选';
+    font-family: '你是我唯一首选';
     font-display: swap;
     src: url('../font/NiShiWoWeiYiShouXuan-2.ttf') format("truetype");
 }
@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: '你是唯一首选','YEFONShanHaiMingChao';
+    font-family: '你是我唯一首选','YEFONShanHaiMingChao';
 }
 
 
