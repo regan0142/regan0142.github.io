@@ -13,14 +13,14 @@
       
       <categories>
           
-          <category> blog </category>
+          <category> 其他 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> test </tag>
+            <tag> text </tag>
             
         </tags>
       
@@ -38,6 +38,31 @@
       
       <categories>
           
+          <category> 测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> text </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>本博客介绍</title>
+      <link href="/reganhexo/f29d0f8a.html"/>
+      <url>/reganhexo/f29d0f8a.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="本博客介绍"><a href="#本博客介绍" class="headerlink" title="本博客介绍"></a>本博客介绍</h1><pre><code>Hexo框架制作的静态博客</code></pre><p><img src="http://mculover666.cn/blog/20191031/R4mWMXsrRKxu.png?imageslim"></p><h2 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h2><pre><code>毕设博客练手</code></pre><p>Hexo博客练手测试感受：</p><ul><li>少代码</li><li>入手真难</li><li>好多问题</li><li>这内容给毕设肯定不行</li><li>感觉没啥收货</li></ul><h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>这Hexo也太难用啦，这2周内</p><ul><li>加博客文本量</li><li>加评论</li><li>导航栏优化</li><li>右键菜单</li></ul><p>之后呐。。。。去看看动态博客框架Halo，不然自己再去做做其他的</p><h1 id="主要博客介绍"><a href="#主要博客介绍" class="headerlink" title="主要博客介绍"></a>主要博客介绍</h1><p>基于vue+springboot，前后端分离博客 做毕设<br>看上去有点简单呐！！！</p><ul><li>加threejs等Web3d技术，实现如本篇的星空背景</li><li>作品项目可以3d展示</li><li>再往3d优化</li><li>加背景 伪3d化图片。<br>。。。。。</li></ul>]]></content>
+      
+      
+      <categories>
+          
           <category> blog </category>
           
       </categories>
@@ -45,7 +70,7 @@
       
         <tags>
             
-            <tag> test </tag>
+            <tag> text </tag>
             
             <tag> me </tag>
             

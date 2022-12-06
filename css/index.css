@@ -2083,36 +2083,11 @@ figure.highlight pre .javascript .function {
   max-width: 1200px;
   width: 100%;
 }
-@media screen and (max-width: 900px) {
-  .layout {
-    -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
-    -o-box-orient: vertical;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 768px) {
-  .layout {
-    padding: 20px 5px;
-  }
-}
-@media screen and (min-width: 2000px) {
-  .layout {
-    max-width: 1500px;
-  }
-}
 .layout > div:first-child:not(.recent-posts) {
   -webkit-align-self: flex-start;
   align-self: flex-start;
   -ms-flex-item-align: start;
   padding: 50px 40px;
-}
-@media screen and (max-width: 768px) {
-  .layout > div:first-child:not(.recent-posts) {
-    padding: 36px 14px;
-  }
 }
 .layout > div:first-child {
   width: 74%;
@@ -2121,19 +2096,16 @@ figure.highlight pre .javascript .function {
   -o-transition: all 0.3s;
   -ms-transition: all 0.3s;
   transition: all 0.3s;
-}
-@media screen and (max-width: 900px) {
-  .layout > div:first-child {
-    width: 100% !important;
-  }
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 .layout.hide-aside {
   max-width: 1000px;
-}
-@media screen and (min-width: 2000px) {
-  .layout.hide-aside {
-    max-width: 1300px;
-  }
+  max-width: 1500px;
 }
 .layout.hide-aside > div {
   width: 100% !important;
@@ -2396,6 +2368,9 @@ figure.highlight pre .javascript .function {
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap .article-meta-link {
   margin: 0 4px;
+}
+#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap time {
+  display: none;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a {
   color: #858585;
@@ -3529,6 +3504,9 @@ h1.page-title + .tag-cloud-list {
 #post-info #post-meta a:hover {
   color: #49b1f5;
   text-decoration: underline;
+}
+#post-info #post-meta time {
+  display: none;
 }
 #nav {
   position: absolute;
