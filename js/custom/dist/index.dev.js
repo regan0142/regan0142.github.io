@@ -2,7 +2,6 @@
 // cyan.showRightMenu = function (isTrue, x = 0, y = 0) {
 //     let $rightMenu = $('#rightMenu');
 //     $rightMenu.css('top', x + 'px').css('left', y + 'px');
-
 //     if (isTrue) {
 //         $rightMenu.show();
 //     } else {
@@ -28,12 +27,10 @@
 //         if (pageY + rmHeight > window.innerHeight) {
 //             pageY -= pageY + rmHeight - window.innerHeight;
 //         }
-
-
-
 //         cyan.showRightMenu(true, pageY, pageX);
 //         return false;
 //     };
-
 //     window.addEventListener('click', function () { cyan.showRightMenu(false); });
 // }
+"use strict";
+//# sourceMappingURL=index.dev.js.map
