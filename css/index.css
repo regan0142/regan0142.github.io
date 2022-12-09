@@ -4382,11 +4382,6 @@ span.mathjax-overflow {
   background: #000;
   -webkit-transform: translate3d(0, 0, 0);
 }
-@media screen and (max-width: 600px) {
-  #article-container figure.gallery-group {
-    width: calc(100% - 8px);
-  }
-}
 #article-container figure.gallery-group:hover img {
   opacity: 0.4;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
