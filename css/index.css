@@ -1366,7 +1366,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: ziti, "YEFONShanHaiMingChao", "你是我唯一首选";
+  font-family: ziti, "你是我唯一首选" ,"YEFONShanHaiMingChao";
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
